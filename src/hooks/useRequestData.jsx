@@ -8,7 +8,6 @@ export const useRequestData = (endpoint, initialState) => {
     useEffect(()=>{
         axios.get(`${BASE_URL}${endpoint}`)
         .then((response)=>{
-               
             //console.log(response.data)
             setFilmListFromAPI(response.data)
         })

@@ -3,7 +3,7 @@ import { API_KEY } from "../AUTH-KEYS/API_KEY"
 import { useRequestData } from "../hooks/useRequestData"
 import { GlobalContext } from "./GlobalContext"
 
-export default function GlobalState(){
+export default function GlobalState({children}){
     const [moviesList, setMoviesList] = useState([]);
     
 
@@ -63,7 +63,7 @@ export default function GlobalState(){
         ])
     },[films]);
     
-    //console.log({moviesList})
+    console.log({moviesList})
 
     
 
@@ -73,7 +73,7 @@ export default function GlobalState(){
 
     return(
         <GlobalContext.Provider value={data}>
-           
+           {children}
         </GlobalContext.Provider>
     )
 }
