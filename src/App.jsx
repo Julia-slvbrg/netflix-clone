@@ -1,7 +1,6 @@
 import { Router } from "./routes/Router"
 import GlobalState from "./context/GlobalState"
 
-
 function App() {
   
   return (
