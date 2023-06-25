@@ -23,7 +23,7 @@ export default function GlobalState({children}){
       setMoviesList([
          {
             slug: 'originals',
-            title: 'NETFLIX originals',
+            title: 'NETFLIX Originals',
             items: films
          },
          {
