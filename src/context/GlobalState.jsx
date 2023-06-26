@@ -5,19 +5,18 @@ import { GlobalContext } from "./GlobalContext"
 
 export default function GlobalState({children}){
    const [moviesList, setMoviesList] = useState([]);
-   const [status, setStatus] = useState(false);
 
 
    //const [id] = useRequestData(`/genre/movie/list?api_key=${API_KEY}`);
    const [films] = useRequestData(`/discover/tv?api_key=${API_KEY}&with_network=213&with_original_language=en&language=en-EUA&sort_by=popularity.desc`);
    const [trending] = useRequestData(`/trending/all/week?api_key=${API_KEY}&with_network=213&with_original_language=en&language=en-EUA&sort_by=popularity.desc`);
    const [topRated] = useRequestData(`/movie/top_rated?api_key=${API_KEY}&with_network=213&with_original_language=en&language=en-EUA&sort_by=popularity.desc`);
-   const [action] = useRequestData(`/discover/movie?api_key=${API_KEY}&with_genre=28&with_original_language=en&language=en-EUA&sort_by=popularity.desc`);
-   const [comedy] = useRequestData(`/discover/movie?api_key=${API_KEY}&with_genre=35&with_original_language=en&language=en-EUA&sort_by=popularity.desc`);
-   const [horror] = useRequestData(`/discover/movie?api_key=${API_KEY}&with_genre=27&with_original_language=en&language=en-EUA&sort_by=popularity.desc`);
-   const [romance] = useRequestData(`/discover/movie?api_key=${API_KEY}&with_genre=10749&with_original_language=en&language=en-EUA&sort_by=popularity.desc`);
-   const [documentary] = useRequestData(`/discover/movie?api_key=${API_KEY}&with_genre=99&with_original_language=en&language=en-EUA&sort_by=popularity.desc`);
-   //setStatus(!status)
+   const [action] = useRequestData(`/discover/movie?api_key=${API_KEY}&with_genres=28&with_original_language=en&language=en-EUA&sort_by=popularity.desc`);
+   const [comedy] = useRequestData(`/discover/movie?api_key=${API_KEY}&with_genres=35&with_original_language=en&language=en-EUA&sort_by=popularity.desc`);
+   const [horror] = useRequestData(`/discover/movie?api_key=${API_KEY}&with_genres=27&with_original_language=en&with_original_language=en&language=en-EUA&sort_by=popularity.desc`);
+   const [romance] = useRequestData(`/discover/movie?api_key=${API_KEY}&with_genres=10749&with_original_language=en&language=en-EUA&sort_by=popularity.desc`);
+   const [documentary] = useRequestData(`/discover/movie?api_key=${API_KEY}&with_genres=99&with_original_language=en&language=en-EUA&sort_by=popularity.desc`);
+   
 
    useEffect(()=>{
       setMoviesList([
@@ -69,8 +68,6 @@ export default function GlobalState({children}){
     
    const data ={
       moviesList,
-      status,
-      setStatus
    }
 
    return(
