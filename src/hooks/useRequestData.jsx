@@ -5,7 +5,6 @@ import { GlobalContext } from "../context/GlobalContext";
 
 export const useRequestData = (endpoint, initialState) => {
     const context = useContext(GlobalContext);
-    //const { status, setStatus } = context;
     const [filmListFromAPI, setFilmListFromAPI] = useState(initialState);
 
 
@@ -14,7 +13,6 @@ export const useRequestData = (endpoint, initialState) => {
         .then((response)=>{
             //console.log(response.data)
             setFilmListFromAPI(response.data)
-            //setStatus(!status)
         })
         .catch ((error)=>{
             console.log(error)
