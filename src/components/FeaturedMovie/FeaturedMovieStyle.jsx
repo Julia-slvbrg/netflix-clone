@@ -11,7 +11,7 @@ export const VerticalTransparencie = styled.div`
 export const HorizontalTransparencie = styled.div`
     width: inherit;
     height: inherit;
-    background: linear-gradient(to right, #111111c1 10%, transparent 90%);
+    background: linear-gradient(to right, #111111c1 30%, transparent 70%);
     display: flex;
     flex-direction: column;
     justify-content: center;
