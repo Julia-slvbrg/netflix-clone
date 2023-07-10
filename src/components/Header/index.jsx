@@ -1,9 +1,11 @@
 import { AvatarContainer, AvatarImg, HeaderContainer, LogoContainer, LogoImg } from "./HeaderStyle"
-import logo from "../../assets/netflix-logo.png"
+import logo from "../../assets/netflix-logo1.png"
 import avatar from "../../assets/netflix-avatar.png"
-export const Header = () => {
+
+export const Header = ({black}) => {
+
     return(
-        <HeaderContainer>
+        <HeaderContainer black={black}>
             <LogoContainer>
                 <LogoImg src={logo} />
             </LogoContainer>

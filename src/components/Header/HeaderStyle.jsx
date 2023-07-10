@@ -10,11 +10,14 @@ export const HeaderContainer = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
-    background: transparent;
+    padding: 0 58px;
+    background: ${(props)=> (props.black)? 'null' : 'transparent' };
+    background-color: ${(props)=> (props.black)? '#080808' : 'null' };
+    transition: all ease .5s;
+
 `
 export const LogoContainer = styled.div`
-    height: 75px;
+    height: 30px;
 `
 export const LogoImg = styled.img`
     height: 100%;
