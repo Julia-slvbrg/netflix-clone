@@ -111,11 +111,23 @@ export default function GlobalState({children}){
     
    //console.log({moviesList})
    //console.log({featuredData})
-    
+
+   const [blackHeader, setBlackHeader] = useState(false);
+   useEffect(()=>{
+      const scrollListener = () => {
+         window.scrollY > 10? setBlackHeader(true) : setBlackHeader(flase);
+      };
+      window.addEventListener('scroll', scrollListener);
+      return () => {
+         window.removeEventListener('scroll', scrollListener);
+      }
+   }, [])
+
+  
    const data ={
       moviesList,
-      setMoviesList,
-      featuredData
+      featuredData,
+      blackHeader
    }
 
    return(
