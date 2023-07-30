@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const FeaturedContainder = styled.section`
     height: 100vh; 
+   
 `
 export const VerticalTransparencie = styled.div`
     width: inherit;

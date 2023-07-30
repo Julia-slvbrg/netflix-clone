@@ -13,8 +13,6 @@ export const FeaturedMovie = () => {
     for(let i in featuredData.genres){
         genres.push(featuredData.genres[i].name);
     };
-
-    //console.log(featuredData)
     
     return(
         <FeaturedContainder
