@@ -115,7 +115,7 @@ export default function GlobalState({children}){
    const [blackHeader, setBlackHeader] = useState(false);
    useEffect(()=>{
       const scrollListener = () => {
-         window.scrollY > 10? setBlackHeader(true) : setBlackHeader(flase);
+         window.scrollY > 10? setBlackHeader(true) : setBlackHeader(false);
       };
       window.addEventListener('scroll', scrollListener);
       return () => {
