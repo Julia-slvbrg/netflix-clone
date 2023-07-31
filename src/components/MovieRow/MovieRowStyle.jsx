@@ -26,6 +26,9 @@ export const NavLeftIcon = styled.div`
         opacity: 1;
     };
 
+    @media (max-width: 760px){
+        opacity: 1;
+    }
 `
 export const NavRightIcon = styled.div`
     position: absolute;
@@ -47,6 +50,9 @@ export const NavRightIcon = styled.div`
         opacity: 1;
     };
 
+    @media (max-width: 760px){
+        opacity: 1;
+    }
 `
 export const IconRow = styled.span`
     scale: 2;
