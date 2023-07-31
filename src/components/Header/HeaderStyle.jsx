@@ -15,6 +15,9 @@ export const HeaderContainer = styled.header`
     background-color: ${(props)=> (props.black)? '#080808' : 'null' };
     transition: all ease .5s;
 
+    @media (max-width: 760px) {
+        padding: 0 20px;
+    }
 `
 export const LogoContainer = styled.div`
     height: 30px;

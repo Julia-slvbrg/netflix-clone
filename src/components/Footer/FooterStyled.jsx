@@ -6,7 +6,13 @@ export const FooterContainer = styled.div`
     flex-wrap: wrap; */
 
     height: 30vh;
-    padding: 60px 280px 10px 260px;
+
+   padding: 60px 280px 10px 260px;
+
+    @media (max-width: 760px){
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 `
 export const IconContainer = styled.div`
     display: inline-block;
