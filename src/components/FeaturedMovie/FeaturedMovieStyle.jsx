@@ -2,7 +2,10 @@ import styled from "styled-components";
 
 export const FeaturedContainder = styled.section`
     height: 100vh; 
-   
+
+    @media (max-width: 760px){
+        height: 80vh;
+    }
 `
 export const VerticalTransparencie = styled.div`
     width: inherit;
@@ -21,11 +24,19 @@ export const HorizontalTransparencie = styled.div`
 export const Name = styled.div`
     font-size: 60px;
     font-weight: bold;
+
+    @media (max-width: 760px) {
+        font-size: 40px;
+    }
 `
 export const Info = styled.div`
     font-size: 18px;
     font-weight: bold;
     margin-top: 15px;
+
+    @media (max-width: 760px) {
+        font-size: 16px; //esse é o tamanho mínimo para texto de celular
+    }
 `
 export const Rating = styled.div`
     display: inline-block;
@@ -45,13 +56,18 @@ export const Description = styled.div`
     font-size: 20px;
     color: #999;
     max-width: 45%;
-   // max-height: 80%;
     text-overflow: ellipsis;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 5;
             line-clamp: 4;
     -webkit-box-orient: vertical;
+
+    @media (max-width: 760px) {
+        font-size: 14px;
+        max-width: 100%;
+        margin-right: 30px;
+    }
 `
 
 export const ButtonsContainer = styled.div`
@@ -78,6 +94,10 @@ export const WatchBtn = styled.button`
     };
     &:active{
         cursor: pointer;
+    };
+
+    @media (max-width: 760px) {
+        font-size: 16px;
     }
 ` 
 
@@ -106,6 +126,10 @@ export const AddListBtn = styled.button`
     };
     &:active{
         cursor: pointer;
+    };
+
+    @media (max-width: 760px) {
+        font-size: 16px;
     }
 ` 
 export const PlusIcon = styled.svg`
@@ -117,4 +141,8 @@ export const Genres = styled.div`
     margin-top: 15px;
     font-size: 18px;
     color: #999;
+
+    @media (max-width: 760px) {
+        font-size: 14px;
+    }
 `
