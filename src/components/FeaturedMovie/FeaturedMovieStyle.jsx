@@ -4,7 +4,7 @@ export const FeaturedContainder = styled.section`
     height: 100vh; 
 
     @media (max-width: 760px){
-        height: 80vh;
+        height: 75vh;
     }
 `
 export const VerticalTransparencie = styled.div`

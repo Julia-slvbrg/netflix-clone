@@ -15,12 +15,10 @@ export const NavLeftIcon = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.363);
     cursor: pointer;
     opacity: 0;
     transition: all ease .5s;
-    //VER COMO VAI FAZER COM ESSA SETINHA
-    /* background: linear-gradient(to right, #111 10%, transparent 90%); */
+    background: linear-gradient(to right, #111 10%, transparent 90%);
 
     ${MovieRowContainer}:hover & {
         opacity: 1;
@@ -40,7 +38,6 @@ export const NavRightIcon = styled.div`
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.6);
     cursor: pointer;
     opacity: 0;
     transition: all ease .5s;
