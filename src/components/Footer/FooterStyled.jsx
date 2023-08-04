@@ -5,8 +5,6 @@ export const FooterContainer = styled.div`
     padding: 60px 280px 10px 260px;
 
     @media (max-width: 760px){
-        //flex-direction: row;
-        //flex-wrap: wrap;
         padding: 30px;
     }
 `
@@ -74,6 +72,17 @@ export const Anchor = styled.a`
     &:active{
         text-decoration: underline;
         color: #FFF;
+    }
+`
+export const IconAnchor = styled.a`
+    color: #FFF;
+
+    &:hover{
+        cursor: pointer
+    };
+    &:active{
+        text-decoration: underline;
+        color: #6a6a6a;
     }
 `
 

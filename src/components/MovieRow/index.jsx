@@ -10,7 +10,7 @@ export const MovieRow = ({title, items}) => {
             x = 0
         };
         setScrollX(x)
-    }
+    };
 
     const handleRightArrow = () => {
         let x = scrollX - Math.round(window.innerWidth / 2);
@@ -19,8 +19,7 @@ export const MovieRow = ({title, items}) => {
             x = (window.innerWidth - listW) - 60
         };
         setScrollX(x)
-    }
-
+    };
 
     return(
         <MovieRowContainer>

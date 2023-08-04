@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react"
+import { useContext } from "react"
 import { GlobalContext } from "../../context/GlobalContext"
 import { MovieRow, FeaturedMovie, Header, Footer} from "../../components"
 import { Lists, LoadingScreen } from "./HomePageStyle";
@@ -14,7 +14,7 @@ function HomePage () {
             <Header black={blackHeader}/ >
             {featuredData && <FeaturedMovie/>}
             <Lists>
-                {/* moviesList.length>0 && */ moviesList.map((category, index)=> 
+                {moviesList.map((category, index)=> 
                     <MovieRow
                         key={index}
                         title={category.title}
