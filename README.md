@@ -27,7 +27,7 @@ Moreover, this app is fully responsive, ensuring compatibility with different sc
 ## Layout
 1. Desktop
 
-![Featured-film](./src/assets/readme/featured-film-cover.png)
+![Cover](./src/assets/readme/featured-film-cover.png)
 
 ![List Row](./src/assets/readme/list-row.png)
 
@@ -79,4 +79,4 @@ http://127.0.0.1:5173/
  - [ ] Implement a function to add films/shows to the users list.
   - [ ] Implement a "My list" row.
   - [ ] Implement a function to watch the film/show trailer.
-
+  
