@@ -1,7 +1,7 @@
 # NETFLIX - clone
 
 <!-- ![NETFLIX](./src/assets/netflix-logo.png) -->
-<img src="./src/assets/netflix-logo.png" alt="NETFLIX logo" height=250px align=middle>
+<img src="./src/assets/netflix-logo.png" alt="NETFLIX logo" height=250px>
 
 This application is a clone of the Netflix homepage. It features a recommended show or film as the cover, along with its synopsis. Additionally, similar to the original site, there are buttons to add the media to the user's playlist and to watch it, although these buttons are not functional at the moment.
 
@@ -26,16 +26,15 @@ Moreover, this app is fully responsive, ensuring compatibility with different sc
 
 ## Layout
 1. Desktop
-![Cover](./src/assets/readme/featured-film-cover.png)
-<br/>
-<br/>
+
+![Featured-film](./src/assets/readme/featured-film-cover.png)
+
 ![List Row](./src/assets/readme/list-row.png)
-<br/>
-<br/>
+
 ![Footer](./src/assets/readme/footer.png)
 
 2. Mobile
-<br/>
+
 <img src="./src/assets/readme/mobile/cover-mobile.png" alt="Cover-mobile" height=500px>
 <img src="./src/assets/readme/mobile/list-rows.png" alt="Film rows" height=500px>
 <img src="./src/assets/readme/mobile/list-rows-footer.png" alt="Rows footer" height=500px>
