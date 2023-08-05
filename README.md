@@ -43,6 +43,15 @@ Moreover, this app is fully responsive, ensuring compatibility with different sc
 
 [Link (deploy)](https://aback-knot.surge.sh/)
 
+1. Desktop
+
+https://github.com/Julia-slvbrg/netflix-clone/assets/114543081/69185850-6cef-480c-b13b-672d39036bec
+
+2.Mobile
+
+https://github.com/Julia-slvbrg/netflix-clone/assets/114543081/f1f8955e-0b6b-4af5-a471-ddc7fe711609
+
+
 ## How to run the application
 ```bash
 # Clone this repository
