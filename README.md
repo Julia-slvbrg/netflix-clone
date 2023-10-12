@@ -14,7 +14,6 @@ Moreover, this app is fully responsive, ensuring compatibility with different sc
 - <a href="#layout">Layout</a>
 - <a href="#demonstration">Demonstration</a>
 - <a href="#run">How to run the application</a>
-- <a href="#endpoints">Application endpoints</a>
 - <a href="#tecnologies-used">Tecnologies used</a>
 - <a href="#developer">Developer</a>
 - <a href="#next-steps">Next steps</a>
