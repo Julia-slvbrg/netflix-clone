@@ -1,6 +1,5 @@
 # NETFLIX - clone
 
-<!-- ![NETFLIX](./src/assets/netflix-logo.png) -->
 <img src="./src/assets/netflix-logo.png" alt="NETFLIX logo" height=250px>
 
 This application is a clone of the Netflix homepage. It features a recommended show or film as the cover, along with its synopsis. Additionally, similar to the original site, there are buttons to add the media to the user's playlist and to watch it, although these buttons are not functional at the moment.
