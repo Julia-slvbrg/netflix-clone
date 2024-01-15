@@ -64,7 +64,7 @@ $ npm install
 # Run the app 
 $ npm run dev
 
-# Acesse a apicação pelo navegador:
+# Run the application in your browser:
 http://127.0.0.1:5173/
 ```
 
